@@ -5,6 +5,7 @@ The router motor is inside of a metal sleeve, and the sleeve has a wide slot cut
 #THE PROBLEM
 
 These are not precision-machined parts, and either the cutout in the motor body is too big, the tab on the clip is too small, the hole in the clip has problems, the worm can slide up and down parallel to the router body - or a combination of all four.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-12%2017.20.11.jpg)
 
 ##TESTING
 
@@ -40,9 +41,11 @@ Moving the bit up until the bit is flush with the surface will leave the worm-si
 
 This is the part where you start going crazy.
 
-Both of these pictures are with the clip in the same place, and with finger pressure on the router tab either way.
+Both of these pictures are with the clip in the same place, and with finger pressure on the router tab either way"
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2013.24.00.jpg)
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2013.23.17.jpg)
 
-@arnoldcp Did a great write-up 9 on how to bore out either side of the clip, leaving a small lip inside, and gluing speacers into the bored-out hole to make it wider.
+[arnoldcp Did a great write-up](https://forums.maslowcnc.com/t/z-axis-only-moving-the-router-some-of-the-time/133/15) on how to bore out either side of the clip, leaving a small lip inside, and gluing speacers into the bored-out hole to make it wider.
 
 Here's my problem: I don't have the facilities to precisely machine out the hole in the clip exactly at a 90-degree angle and to a certain depth so the spacers have a supportive lip to support them.
 
@@ -50,19 +53,22 @@ A few trips to Lowe's later, and here's what worked for me:
 
 ##PLAY IN THE WORM HOUSING
 
-The worm is not secure in its mounting. It can move parallel to the router body by a few mm, and you can "rattle" it by hand, up and down.
+The worm is not secure in its mounting. It can move parallel to the router body by a few mm, and you can "rattle" it by hand, up and down.When pressed all the way down, there is ~2.5mm gap between the lower hole surface and the far side of the cutout for the c-clip. Since the c-clip is about 1mm thick, this leaves 1.5mm of play in the worm. This movement needs to be eliminated so the worm cannot slide in parallel with the router body, otherwise the z-axis will be moving the worm up and down for the first ~1.5mm instead of the router bit.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2017.39.16.jpg)
 
-The top of the worm fits into a larger hole on the upper mounting. The bottom of the worm has a smaller diameter end which goes through a smaller lower hole and is secured by a C-clip on the other side. When pressed all the way down, there is ~2mm gap between the lower hole surface and the c-clip. This movement needs to be eliminated so the worm cannot slide in parallel with the router body.
+The top of the worm fits into a larger hole on the upper mounting. The bottom of the worm has a smaller diameter end which goes through a smaller lower hole and is secured by a C-clip on the other side.
 
 Disassembly is easy - use a (preferably non-rusty) small screwdriver to pop the c-clip off. Put your free hand over the top so it doesn't go flying, and try not to stab yourself with a rusty screwdriver.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-12%2017.18.57.jpg)
 
 A 12-pc bag of 5/16-inch Hillman zinc washers from Lowes is $1.28. The barcode is 0 08236 59004 3, and my receipt shows a Lowes item number of 58125.
 
 The washers fit around the non-threaded part of the worm. Placing one washer on the top of the lower mount and installing the worm presses it between the end of the threads on the worm and the lower mount. This puts the groove that holds the c-clip about 0.25mm inside the hole of the lower mount. This is enough to still get the c-clip in, but under pressure - leaving no room for travel in the worm.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2017.40.39.jpg)
 
 I chose to put the washer on the thread-side of the lower mount, because I didn't want to be pulling the threads into the lower mount for an extended amount of time as they're rotating. (I didn't want to make the threads "drill out" the lower mount)
 
-##PLAY IN THE WORM-SIDE OF THE CLIP
+##PLAY IN THE WORM-SIDE (HOLE-SIDE, NOT TAB-SIDE) OF THE CLIP
 
 The goal here is to keep the clip perpendicular to the worm and router body at all times. The easiest way to do so is to make the hole longer and have it fit the worm as closely as possible so the elongated hole can't tilt on the worm shaft.
 
@@ -71,25 +77,32 @@ The threads on the worm have a 1/2-inch diameter, and the clip has a 1/2-inch ho
 A Hillman bronze machine bushing from Lowes is 1/2-inch long, has a 1/2-inch hole through the center, and has a 3/4-inch diameter flange on one side They come in packs of one for $3.91, and it has a Lowes item number of 1772.
 
 Attaching this bushing to the side of the clip will extend the length of the hole from 5/8-inches to 1 1/8 inches, where the latter 1/2-inch of the hole doesn't have any other mechanisms to present any additional slop, like the clip does.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2018.51.13.jpg)
 
 Do not attach the bushing to the lower (bit side) of the clip. If you do, it will hit the lower worm mount and not allow the router to extend its bit to the worm's fullest extent. This will likely prevent the bit from reaching more than 1/2-inch into the material. Since most material used is 3/4-inches thick, this wouldn't work.
 
 I carefully glued the bushing to the top (z-axis motor side) of the clip with Gorilla Glue, ensured it was aligned properly, and that an excess amount of glue hadn't seeped into the inside of the hole. Clamp the parts together and allow to dry overnight - Gorilla glue expands and there's no room for the bushing to be even slightly off-axis with the clip.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2013.27.48.jpg)
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2013.29.14.jpg)
 
-Don't leave the orange button and spring in like this - see below.
-
-There's nothing good that can happen to it while the assembly is being glued and finished, wait until it's time to put the assembly back on the worm.
+Don't leave the orange button and spring in like this while the glue dries. There's nothing good that can happen to it while the assembly is being glued and finished, wait until it's time to put the assembly back on the worm to reinsert the spring and orange button - you don't want it to get glued in place.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2013.42.16.jpg)
 
 Gorilla glue will expand into the hole and harden. I waited for it to do so and drilled it out. I didn't have a 1/2-inch drill bit, so my 3/8-inch bit did fine. Make sure not to twist the bit in the hole assembly or you'll flange the hole out and make it looser on the worm shaft.
 
-Grease the shaft before assembly. (I'm concerned about sawdust contamination in the grease, so perhaps a stronger spring is needed, but…) The clip has a small spring that presses its tab into the router's tab cutout. The spring is not designed to be strong, it's meant to be easily overwhelmed and allow the tab to pop out if the router is trying to jam into something too forcefully. (This is called a "mechanical fuse") The added drag of the longer hole on the shaft is something the spring struggles to overcome, and the clip can stay stationary instead of rotating into the router body's cutout.
+The clip has a small spring that presses its tab into the router's tab cutout. The spring is not designed to be strong, it's meant to be easily overwhelmed and allow the tab to pop out if the router is trying to jam into something too forcefully. (This is called a "mechanical fuse") The added drag of the longer hole on the shaft is something the spring struggles to overcome, and the clip can rotate on the worm unless the worm is oiled/greased to reduce the additional friction. This will rotate the tab out of the cutout and disengage the router body from the worm assembly.
+
+Bending the body spring wider can make it push harder, or some people use rubber bands or bungee cords to keep the tab engaged in the router body cutout. I don't like either, because the tab moves up and down on the outside of the router housing, and the bungee cords / rubber bands are stationary. **Research in progress**
 
 #ADDITIONAL CONCERNS
 
-The router's sleeve has a clamp that's meant to hold the router body after it's been adjusted. The z-axis motor isn't strong enough to fight this, so I used a ratchet and manually tightened the nut on this clamp so the router sleeve is a closer fit to the router body. I leave it unlatched, and just tightened the nut on its bolt to my desired tightness.
+## TIGHTENING CLAMP ON ROUTER HOUSING
+The router's sleeve has a clamp that's meant to hold the router body after it's been adjusted. The z-axis motor isn't strong enough to fight this when it's tightened to its factory settings - it's meant to hold the router body securely in the housing, which we don't want - it needs to slide. The clamp is seen top-right below.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2013.23.17.jpg)
 
-(clamp is seen top-right below)
+Loosen the nut on the clamp bolt with a socket wrench, until the clip is very loose. Assemble the router, disengage the mechanical fuse (hold it out of the router cutout) and tighten the router housing enough so the router body can still slide up and down somewhat easily, but not so loose where the router body can tilt side-to-side inside the housing.
 
-I'm waiting for some tough, slippery tape to put strips on both the sleeve and router body so it can slide better, but I suppose I could grease it as well.
+## DRAG BETWEEN THE SLED AND PLYWOOD / ROUTER BODY AND HOUSING / MECHANICAL FUSE SPRING AND ROUTER HOUSING / WORM AND FUSE CLIP
+**Research in progress** I'm waiting for some tough, slippery tape to put strips on both the sleeve and router body so it can slide better, but I suppose I could grease it as well.
 
 The clip's tab is slightly smaller than the cutout in the router body. This leaves a tiny amount of play (<1mm for me) That's enough where I adjust the router for proper depth, and just set the traverse height to 5mm and let it be slightly off. Not sure how to remedy without compromising the function of the mechanical fuse.
