@@ -1,5 +1,4 @@
-# Inexpensive add-ons for z-axis slack imprecision on Maslow CNC
-![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/mainpicture.jpg)
+# Inexpensive fixes for z-axis slack imprecision on Maslow CNC
 
 ### Routers these fixes can be applied to:
 * Ridgid R22002
@@ -12,4 +11,4 @@
 * Multiple drag points in z-axis and router assembly
 * Modified z-axis clip can cause enough drag to rotate z-axis clip, disengaging it
 
-
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/mainpicture.jpg)
