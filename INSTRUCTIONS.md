@@ -88,6 +88,9 @@ I carefully glued the bushing to the top (z-axis motor side) of the clip with Go
 Don't leave the orange button and spring in like this while the glue dries. There's nothing good that can happen to it while the assembly is being glued and finished, wait until it's time to put the assembly back on the worm to reinsert the spring and orange button - you don't want it to get glued in place.
 ![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2013.42.16.jpg)
 
+ChuckC had a spare 1/2 bolt and nut lying around, and because the clip has flat sides, this is an excellent way to keep the bushing and clip aligned while the glue dries. Just make sure it can be removed and you're not gluing the bolt inside of the clip, or you'll ruin a critical part of the z-axis assembly.
+![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/IMG_3363.JPG)
+
 Gorilla glue will expand into the hole and harden. I waited for it to do so and drilled it out. I didn't have a 1/2-inch drill bit, so my 3/8-inch bit did fine. Make sure not to twist the bit in the hole assembly or you'll flange the hole out and make it looser on the worm shaft.
 
 The clip has a small spring that presses its tab into the router's tab cutout. The spring is not designed to be strong, it's meant to be easily overwhelmed and allow the tab to pop out if the router is trying to jam into something too forcefully. (This is called a "mechanical fuse") The added drag of the longer hole on the shaft is something the spring struggles to overcome, and the clip can rotate on the worm unless the worm is oiled/greased to reduce the additional friction. This will rotate the tab out of the cutout and disengage the router body from the worm assembly.
