@@ -1,17 +1,17 @@
-#THE SITUATION
+# THE SITUATION
 
 The router motor is inside of a metal sleeve, and the sleeve has a wide slot cut out of the side. There is a rectangular cutout in the router motor body that travels up and down, visible in this cutout. A spring-loaded clip pushes a rectangular-shaped tab into the rectangular-shaped cutout in the motor body. This clip is what the z-axis adjustment screw (technically a 'worm') pushes up and down when the screw rotates.
 
-#THE PROBLEM
+# THE PROBLEM
 
 These are not precision-machined parts, and either the cutout in the motor body is too big, the tab on the clip is too small, the hole in the clip has problems, the worm can slide up and down parallel to the router body - or a combination of all four.
 ![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-12%2017.20.11.jpg)
 
-##TESTING
+## TESTING
 
 With my Ridgid R22002, the problem was the hole in the clip used by the worm. In testing, here's what happens when we zero the bit and drill two 10mm holes: (numbers rounded for illustration)
 
-###ZEROING ERROR
+### ZEROING ERROR
 
 1. The bit is 10mm above the surface, The clip is perfectly perpendicular to the router body (level).
 2. The z-axis is told to move 5mm down. The worm side of the clip moves 5mm down while the router body doesn't move.
@@ -19,7 +19,7 @@ With my Ridgid R22002, the problem was the hole in the clip used by the worm. In
 4. The z-axis is told to move 10mm down. The bit is now zeroed, just grazing the surface. The clip is still angled 5mm down, lower on the worm side.
 5. The z-axis is told to rise to its traverse height of 5mm. The worm side of the clip is raised 5mm, and the clip is now level. The bit is still zeroed on the surface of the wood.
 
-###ROUTING ERRORS
+### OUTING ERRORS
 
 1. The z-axis is now told to drill a 10mm hole. The worm drive turns enough to move the worm side of the clip down 10mm.
 2. The first 5mm of downward travel is used to angle the clip down on the worm side, with no change in the depth of the bit. The remaining 5mm push the bit 5mm below the surface.
@@ -51,7 +51,7 @@ Here's my problem: I don't have the facilities to precisely machine out the hole
 
 A few trips to Lowe's later, and here's what worked for me:
 
-##PLAY IN THE WORM HOUSING
+## PLAY IN THE WORM HOUSING
 
 The worm is not secure in its mounting. It can move parallel to the router body by a few mm, and you can "rattle" it by hand, up and down.When pressed all the way down, there is ~2.5mm gap between the lower hole surface and the far side of the cutout for the c-clip. Since the c-clip is about 1mm thick, this leaves 1.5mm of play in the worm. This movement needs to be eliminated so the worm cannot slide in parallel with the router body, otherwise the z-axis will be moving the worm up and down for the first ~1.5mm instead of the router bit.
 ![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/2018-05-13%2017.39.16.jpg)
@@ -68,7 +68,7 @@ The washers fit around the non-threaded part of the worm. Placing one washer on 
 
 I chose to put the washer on the thread-side of the lower mount, because I didn't want to be pulling the threads into the lower mount for an extended amount of time as they're rotating. (I didn't want to make the threads "drill out" the lower mount)
 
-##PLAY IN THE WORM-SIDE (HOLE-SIDE, NOT TAB-SIDE) OF THE CLIP
+## PLAY IN THE WORM-SIDE (HOLE-SIDE, NOT TAB-SIDE) OF THE CLIP
 
 The goal here is to keep the clip perpendicular to the worm and router body at all times. The easiest way to do so is to make the hole longer and have it fit the worm as closely as possible so the elongated hole can't tilt on the worm shaft.
 
@@ -94,7 +94,7 @@ The clip has a small spring that presses its tab into the router's tab cutout. T
 
 Bending the body spring wider can make it push harder, or some people use rubber bands or bungee cords to keep the tab engaged in the router body cutout. I don't like either, because the tab moves up and down on the outside of the router housing, and the bungee cords / rubber bands are stationary. **Research in progress**
 
-#ADDITIONAL CONCERNS
+# ADDITIONAL CONCERNS
 
 ## TIGHTENING CLAMP ON ROUTER HOUSING
 The router's sleeve has a clamp that's meant to hold the router body after it's been adjusted. The z-axis motor isn't strong enough to fight this when it's tightened to its factory settings - it's meant to hold the router body securely in the housing, which we don't want - it needs to slide. The clamp is seen top-right below.
