@@ -16,4 +16,4 @@ Angled Mech. Fuse | **Y**
 Weak Fuse Spring | *tbd*
 Friction Points | *tbd*
 
-![](https://github.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/blob/master/mainpicture.jpg)
+![](https://raw.githubusercontent.com/MaslowCommunityGarden/Inexpensive-add-ons-for-z-axis-slack-imprecision/master/mainpicture.jpg)
